@@ -1,10 +1,11 @@
-number = input("Inter number :")
+number = input("Inter 3-digit number :")
 num1 = 0
-if len(number) == 2 :
+if len(number) == 3 :
   for i in number :
     num1 = num1 + int(i)
-else 
-  print("Error")
+  print(num1)
+else :
+  print("The number of digits in the input is not equal to 3")
   
   
   
