@@ -1,0 +1,11 @@
+import cmath
+a = int(input("Inter a :"))
+b = int(input("Inter b :"))
+c = int(input("Inter c :"))
+if a == 0 :
+	break 
+else :
+delta = b**2 -4 * a * c
+
+x1 = -b + cmath.sqrt(delta)
+x2 = -b - cmath.sqrt(delta)
