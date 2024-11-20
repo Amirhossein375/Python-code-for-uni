@@ -1,5 +1,5 @@
 a = int(input("inter number"))
 for  n in a :
-    i =i++
+    n =n++
     b = print("o")
     print ("w" + b + "w")
